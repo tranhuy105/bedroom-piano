@@ -24,7 +24,7 @@ export const DeleteBar = async (id: string) => {
         },
       });
 
-      console.log(deletedBar);
+      // console.log(deletedBar);
       const returnBar = {
         id: deletedBar.id,
         chords: deletedBar.chords,

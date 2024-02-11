@@ -5,6 +5,7 @@ interface NextChordProps {
 }
 
 const NextChord = ({ nextChord }: NextChordProps) => {
+  if (nextChord === undefined) return;
   const cT = () => {
     if (nextChord.typeOfChord === "major") {
       return "";
